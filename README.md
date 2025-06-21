@@ -1,1 +1,4 @@
-# svm-emotions-train
+# Run This Project Using
+```
+uvicorn scripts.api:app --reload
+```
