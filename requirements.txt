@@ -27,7 +27,7 @@ packaging==25.0
 pandas==2.3.0
 promise==2.3
 propcache==0.3.2
-protobuf==4.21.12
+protobuf>=4.25.2,<6.0.0
 psutil==7.0.0
 pyarrow==20.0.0
 python-dateutil==2.9.0.post0
