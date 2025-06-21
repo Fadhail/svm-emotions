@@ -12,7 +12,7 @@ def main():
         sys.exit(1)
 
     text = sys.argv[1]
-    model = joblib.load("../models/svm_goemotions.pkl")
+    model = joblib.load("models/svm_goemotions.pkl")
 
     emotion, confidence = predict_emotion(text, model)
     print(f"Predicted emotion: {emotion}, Confidence: {confidence:.2f}")

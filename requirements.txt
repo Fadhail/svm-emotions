@@ -8,9 +8,9 @@ attrs==25.3.0
 certifi==2025.6.15
 charset-normalizer==3.4.2
 click==8.1.8
-datasets==3.6.0
+datasets
 dill==0.3.8
-dm-tree==0.1.8
+# dm-tree==0.1.8
 etils==1.5.2
 filelock==3.18.0
 frozenlist==1.7.0
@@ -22,7 +22,7 @@ importlib_resources==6.5.2
 joblib==1.5.1
 multidict==6.5.0
 multiprocess==0.70.16
-numpy==2.0.2
+# numpy==2.0.2
 packaging==25.0
 pandas==2.3.0
 promise==2.3
@@ -35,7 +35,7 @@ pytz==2025.2
 PyYAML==6.0.2
 requests==2.32.4
 scikit-learn==1.6.1
-scipy==1.13.1
+# scipy==1.13.1
 six==1.17.0
 tensorflow-metadata==1.17.1
 termcolor==3.1.0
